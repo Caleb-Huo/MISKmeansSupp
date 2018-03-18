@@ -6,7 +6,7 @@ Date: 2018-03-18
 Author: Caleb
 Maintainer: Who to complain to <zhuo@ufl.edu>
 Description: Perform simulation for MISKmeans
-Depends: stats, MCMCpack, mclust, R (>= 2.10.1)
+Depends: stats, MCMCpack, R (>= 2.10.1)
 License: GNU GENERAL PUBLIC LICENSE
 NeedsCompilation: no
 Packaged: 2016-08-10 02:35:48 UTC; Caleb
