@@ -10,4 +10,4 @@ Depends: stats, MCMCpack, R (>= 2.10.1)
 License: GNU GENERAL PUBLIC LICENSE
 NeedsCompilation: no
 Packaged: 2016-08-10 02:35:48 UTC; Caleb
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
