@@ -1,6 +1,8 @@
-# data repositories.
-This repository hosts real application datasets for the purpose of algorithm development.
+# MISKmeans Supplementary materials.
+This repository hosts supplementary materials for MISKmeans.
 
-### Each folder is for one specific project.
-All datasets are available in the format of .rdata
+### Simulation generation R package.
+Here is how to install the package.
 
+### All R scripts, which are used to reproduce all results in the MISKmeans manuscript.
+Check out the scripts folder
