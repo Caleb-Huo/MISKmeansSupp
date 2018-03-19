@@ -11,7 +11,7 @@ generateStructure <- function(anModule,Gmean,Gsd,aSindex,sigma1,sigma2,rho = 0.5
 	  		stop("please specify diffmu, which is a constrain parameter!")
 	  	}
 	  	if(sd(amuLayer1)<diffmu){
-	  		stop("sd(amuLayer1)<diffmu, it is unlikely to statisfy this constrain")
+	  		#stop("sd(amuLayer1)<diffmu, it is unlikely to statisfy this constrain")
 	  	}
 	  	resampleIndex = apply(amuLayer1,1,function(x) max(x)-min(x))<diffmu
 	  	resampleLen = sum(resampleIndex)
