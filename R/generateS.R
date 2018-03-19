@@ -99,7 +99,7 @@ generateS <- function(seed=15213,S=3,Types=2,k=3,meanSamplesPerK=c(40,40,30),nMo
 	    if(length(rk)!=0){
 		    for (i in 1:length(rk)){
 		      rSindex = rPartationSample(n,rk[i])
-		  	  rdatai = generateStructure(nrModule,Gmean,Gsd,rSindex,sigma1,sigma2,rho = rho,df.prior = df.prior,meanGenesPerModule=meanGenesPerModule)
+		  	  rdatai = generateStructure(nrModule,Gmean,Gsd,rSindex,sigma1,sigma2,rho = rho,df.prior = df.prior,meanGenesPerModule=meanGenesPerModule,fold=fold[s])
 		      resData = rbind(resData,rdatai$data)
 		    }
 	    }
