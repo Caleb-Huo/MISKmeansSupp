@@ -164,7 +164,8 @@ generateS <- function(seed=15213,S=3,Types=2,k=3,meanSamplesPerK=c(40,40,30),nMo
   		d <- cbind(d,t(omics[[atype]]))
   	  }
     } ## end of loops for atype
-	finalResult[[s]] <- list(omics=omics, d=d, labels=labels, group=group, subPredictGene=subPredictGene, groupUnion=groupUnion, subPredictGeneUnion=subPredictGeneUnion)
+	finalResult[[s]] <- list(omics=omics, d=d, labels=labels, group=group, subPredictGene=subPredictGene, groupUnion=groupUnion, subPredictGeneUnion=subPredictGeneUnion,
+		muLayer1_list=muLayer1_list)
   }## end of loops for S studies
   
 
